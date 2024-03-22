@@ -1,0 +1,190 @@
+@media screen and (max-width:1192px) {
+    .about,.backers-container,.Mastercraft-container{
+        width: 60%;
+    }
+    .mastercraft-content h1{
+        font-size: 24px;
+    }
+    .mastercraft-content p{
+        font-size: 18px;
+    }
+
+    .backers-container .detail-card h1{
+        font-size:24px;
+    }
+    .backers-container .detail-card p{
+        font-size: 16px;
+        
+    }
+    
+    .back-this-container{
+        width: 70%;
+    }
+    .thankyou-contaner{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1000px){
+/* 769 */
+    .about,.backers-container,.Mastercraft-container{
+        width: 70%;
+    }
+    .mastercraft-content h1{
+        font-size: 22px;
+    }
+    .mastercraft-content p{
+        font-size: 14px;
+    }
+    
+    .backers-container .detail-card h1{
+        font-size:20px;
+    }
+    .backers-container .detail-card p{
+        font-size: 14px;
+        
+    }
+    .back-this-container{
+        width: 80%;
+    }
+    .thankyou-contaner{
+        width:50%;
+    }
+}
+@media screen and (max-width:768px){
+
+    header{
+        position: relative;
+        background-image: url(./images/image-hero-mobile.jpg);
+    }
+    nav{
+        display: none;
+    }
+    .nav_active{
+        display: block;
+        background: var(--white);
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        width: 90%;
+        border-radius: 15px;
+    }
+    .nav_active ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 3% 0;
+    }
+    .nav_active ul li{
+        border-bottom: 2px solid var(--Dark-gray);
+        width: 100%;
+        /* text-align: center; */
+        padding: 3%;
+    }
+    .nav_active ul li:last-child{
+        border: none;
+    }
+    .nav_active ul li a{
+        color: var(--Black);
+    }
+    .hamburger-container{
+        display: block;
+    }
+    .hamburger-container img{
+        width: 30px;
+        cursor: pointer;
+    }
+    .hamburger-container .close_menu{
+        display: none;
+    } 
+    .about,.backers-container,.Mastercraft-container{
+        z-index: 1;
+        width: 90%;
+    }
+    .back-this-container{
+        width: 100%;
+        
+    }
+    .reword-card .card-heading .heading h1{
+        font-size: 14px;
+    }
+    .thankyou-contaner{
+        width:70%;
+    }
+}
+@media screen and (max-width:550px){
+    .bookmark-container button{
+        padding: 0 15px ;
+    }
+    .bookmark-container button{
+        font-size: 12px;
+    }
+    .bookmark{
+        gap: 5px;
+    }
+    .bookmark p{
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .backers-container .details-card{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .backers-container .detail-card{
+        border-right: 0px;
+        border-bottom: 2px solid var(--Dark-gray);
+        width: 55%;
+        padding: 5% 2%;
+        text-align: center;
+    }
+    .backers-container .detail-card:nth-last-child(1){
+        border: 0;
+    }
+    .about-container h1{
+        font-size: 20px;
+    }
+    .about-container p{
+        font-size: 14px;
+    }
+    .heading-container h2{
+        font-size: 14px;   
+    }
+    .heading-container p{
+        font-size: 12px;
+    }
+    .about-card .text{
+        font-size: 14px;
+    }
+    .leftandbutton{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .leftandbutton button{
+        width: 150px;
+        padding: 5%;
+    }
+    .reword-card .card-heading .heading{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .card-heading + p{
+       font-size: 14px;
+    }
+    .continue-button-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .continue-button-container .buttons{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .continue-button-container .buttons button{
+        padding: 5% 10%;
+    }
+}   .thankyou-contaner{
+    width: 90%;
+}
